@@ -14,6 +14,8 @@
 		457C8E9D2BBD8AC8005D5379 /* WaterReminderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 457C8E9C2BBD8AC8005D5379 /* WaterReminderTests.swift */; };
 		457C8EA72BBD8AC8005D5379 /* WaterReminderUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 457C8EA62BBD8AC8005D5379 /* WaterReminderUITests.swift */; };
 		457C8EA92BBD8AC8005D5379 /* WaterReminderUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 457C8EA82BBD8AC8005D5379 /* WaterReminderUITestsLaunchTests.swift */; };
+		457C8EB62BBD9050005D5379 /* WaterModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 457C8EB52BBD9050005D5379 /* WaterModel.swift */; };
+		457C8EBA2BBDC454005D5379 /* RecommendedWaterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 457C8EB92BBDC454005D5379 /* RecommendedWaterView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +46,8 @@
 		457C8EA22BBD8AC8005D5379 /* WaterReminderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WaterReminderUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		457C8EA62BBD8AC8005D5379 /* WaterReminderUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaterReminderUITests.swift; sourceTree = "<group>"; };
 		457C8EA82BBD8AC8005D5379 /* WaterReminderUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaterReminderUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		457C8EB52BBD9050005D5379 /* WaterModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaterModel.swift; sourceTree = "<group>"; };
+		457C8EB92BBDC454005D5379 /* RecommendedWaterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecommendedWaterView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +102,8 @@
 				457C8E8D2BBD8AC6005D5379 /* ContentView.swift */,
 				457C8E8F2BBD8AC7005D5379 /* Assets.xcassets */,
 				457C8E912BBD8AC7005D5379 /* Preview Content */,
+				457C8EB52BBD9050005D5379 /* WaterModel.swift */,
+				457C8EB92BBDC454005D5379 /* RecommendedWaterView.swift */,
 			);
 			path = WaterReminder;
 			sourceTree = "<group>";
@@ -257,7 +263,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				457C8EB62BBD9050005D5379 /* WaterModel.swift in Sources */,
 				457C8E8E2BBD8AC6005D5379 /* ContentView.swift in Sources */,
+				457C8EBA2BBDC454005D5379 /* RecommendedWaterView.swift in Sources */,
 				457C8E8C2BBD8AC6005D5379 /* WaterReminderApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
