@@ -14,7 +14,7 @@ struct WaterGoal {
 }
 
 // Klasa zarządzająca ustawianiem celu spożycia wody
-class WaterGoalManager {
+class WaterGoalManager: ObservableObject{
         
         // Metoda do ustawiania celu spożycia wody
         func setWaterGoal(amount: Int) {
@@ -27,6 +27,9 @@ class WaterGoalManager {
             // Pobierz cel spożycia wody z UserDefaults lub zwróć domyślną wartość (2000 ml)
             return UserDefaults.standard.integer(forKey: "WaterGoalAmount")
         }
+    
+        // Zdefiniuj instancję PersonalizedWaterGoal, aby była dostępna w innych częściach kodu
+        var personalizedWaterGoal = PersonalizedWaterGoal(targetAmount: 0.0)
     
         struct PersonalizedWaterGoal {
         var targetAmount: Double
