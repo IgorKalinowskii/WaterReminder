@@ -1,40 +1,41 @@
 # WaterReminder 💧
 
-**WaterReminder** to aplikacja mobilna napisana w języku Swift, która pomaga użytkownikom monitorować spożycie wody i przypomina o regularnym piciu wody. Celem aplikacji jest promowanie zdrowych nawyków i utrzymanie odpowiedniego poziomu nawodnienia.
+WaterReminder is a mobile application written in Swift that helps users monitor their water intake and reminds them to drink water regularly. The goal of the application is to promote healthy habits and maintain proper hydration levels.
 
 ---
 
-## Funkcjonalności
+## Features
 
-- 📊 **Monitorowanie spożycia wody**: Aplikacja pozwala użytkownikowi rejestrować ilość wypitej wody w ciągu dnia.
-- ⏰ **Przypomnienia**: Regularne powiadomienia przypominają o konieczności wypicia wody.
-- 🎯 **Cele dzienne**: Użytkownik może ustawić swój dzienny cel nawodnienia w oparciu o indywidualne potrzeby.
-- 📈 **Statystyki**: Wyświetla historię spożycia wody, umożliwiając śledzenie postępów w dłuższym okresie.
+- 📊 **Water Intake Monitoring**: The app allows users to log their daily water consumption.
+- ⏰ **Reminders**: Regular notifications remind users to drink water.
+- 🎯 **Daily Goals**: Users can set their daily hydration goals based on individual needs.
+- 📈 **Statistics**: Displays a history of water consumption, enabling users to track their progress over time.
 
 ---
 
-## Technologie
+## Technologies
 
-- **Język programowania**: Swift
-- **Platforma**: iOS
+- **Programming Language**: Swift
+- **Platform**: iOS
 - **Framework**: UIKit
-- **Testy**:
-  - Testy jednostkowe: `WaterReminderTests`
-  - Testy interfejsu użytkownika: `WaterReminderUITests`
+- **Testing**:
+  - Unit Tests: `WaterReminderTests`
+  - UI Tests: `WaterReminderUITests`
 
 ---
 
-## Cel projektu
+## Project Goal
 
-Celem aplikacji jest poprawa zdrowia użytkowników poprzez wspieranie nawyków regularnego picia wody. WaterReminder może być również wykorzystany jako demonstracja znajomości:
-- Tworzenia aplikacji mobilnych w Swift.
-- Implementacji powiadomień lokalnych.
-- Tworzenia i przeprowadzania testów jednostkowych oraz testów UI.
+The goal of the application is to improve users' health by supporting the habit of regular water intake. WaterReminder can also serve as a demonstration of the following skills:
+
+- Developing mobile applications in Swift.
+- Implementing local notifications.
+- Creating and executing unit tests and UI tests.
 
 ---
 
-## Jak uruchomić projekt?
+## How to Run the Project?
 
-1. Sklonuj repozytorium:
+1. Clone the repository:
    ```bash
    git clone https://github.com/IgorKalinowskii/WaterReminder.git
